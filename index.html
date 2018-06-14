@@ -1,22 +1,19 @@
-<!DOCTYPE html>
-<html lang="en" id="Pr">
+<html lang="en"><head>
+  <title>Calculate square</title>
+  <meta charset="utf-8">
+  <script>
 
-   <head>
-     <title>
-       JavaScript
-     </title>
-   </head>
 
-   <body>
-     <script>
-     var favDrink = prompt(" Are you ready to learn JavaScript ??")
-     greeting_msg(favDrink);
-    function greeting_msg(a)
-     {
-       console.log(a);
-     }
+    function cal() {
+      var x = prompt(" Are you ready to learn JavaScript ??")
+      console.log("Value of x is : " + x);
 
-     </script>
-   </body>
+      document.body.innerHTML += "<p>The square of " + x + " is  = " + x * x + "</p>";
+    }
+  </script>
+</head>
+  <body>
+    <button onclick="cal();">Click to Calculate the square of Number</button>
 
-</html>
+
+</body></html>
